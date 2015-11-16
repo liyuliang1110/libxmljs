@@ -16,4 +16,7 @@ build_script:
 test_script:
   - npm test
 
+artifacts:
+  - path: build
+
 deploy: off
